@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loading</title>
+
+	<link rel="stylesheet" href="css/all.css"><!--Icones em css-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" href="favicon.jpg">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Deixa o site QUASE responsivo-->
+    <meta name="keywords" content="palavras-chave,do,meu,site">
+    <meta name="description" content="Descrição do meu website">
+
+    <style>/*Tive que por aqui pq na outra página não funcionava ;-; */
+    	@font-face{font-family: "lucidity-condensed"; /* Aqui damos o nome pra fonte própria */
+		src: url(fonts/lucidity-condensed.ttf)}
+
+		.fonte{
+			font-family: "lucidity-condensed";
+		}
+    </style>
+
+</head>
+<body>
+
+    
+
+	<header><!--O Cabeçalho do site-->
+        <div class="secao-topo flex">
+            <nav class="mobile fonte">
+                <div class="botao-menu-mobile"><i class="fas fa-bars"></i></div>-
+                    <ul>
+                        <li><a href="">Como assistir na TV</a></li>
+                        <li><a href="">Programação</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Conteúdos</a></li>
+                        <li><a href="">Atrações</a></li>
+                        <li><a href="">Ao vivo</a></li>
+                    </ul>
+            </nav>
+    		<div class="esquerda correcao-div-logo"><a href="index.html"><img class="logo" src="img/loading50.png"></a></div>
+            
+            <nav class="desktop fonte direita">
+                <ul>
+                    <li class="padding-anti-bug"><a href="">Como assistir na TV</a></li>
+                    <li class="padding-anti-bug"><a href="">Programação</a></li>
+                    <li class="padding-anti-bug"><a href="">Vídeos</a></li>
+                    <li class="padding-anti-bug"><a href="">Conteúdos</a></li>
+                    <li class="padding-anti-bug"><a href="">Atrações</a></li>
+                    <li><a class="caixa-redonda" style="color: black;" href="">Ao vivo</a></li>
+                    <li><a style="padding: 22px 0; padding-left: 15px; padding-right: 3px;" href=""><i class="fab fa-youtube caixa-redonda-icone"></i></a></li>
+                    <li><a class="padding-anti-bug-icone" href=""><i class="fab fa-instagram caixa-redonda-icone"></i></a></li>
+                    <li><a class="padding-anti-bug-icone" href=""><i class="fab fa-twitter caixa-redonda-icone"></i></a></li>
+                    <li><a class="padding-anti-bug-icone" href=""><i class="fab fa-facebook-f caixa-redonda-icone"></i></i></a></li>
+                </ul>
+            </nav>
+
+            <i class="mobile fa fa-search" aria-hidden="true"></i>
+        </div><!--center-->
+
+	</header>
+
+	<main id="container-principal"><!--Em teoria, o corpo do site ;-; Deve ser adicionado as "seções" (partes de uma página) do site aqui.-->
+		<section class="banner-chamativo centro"><img style="width: 450px;" src="img/loading-preto.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html"><img class="logo-banner" src="img/Play.png"></a></section>
+		<section class="fundo-canais-ao-vivo">
+            <div class="animacao-ao-vivo fundo-ao-vivo">
+                <div class="animacao-ao-vivo" style="height: 100%">
+                    <div class="bola1"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="bola2"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="bola3"></div>
+                </div><!-- div pai das bolas animacao-ao-vivo. Tive que por a classe no div com um style para separar animação do link escrito que estão dentro do div pai, que por sua vez separa animação e link dos canais da outra div dentro a seção. Div avô guarda as divs pai (animações com 3 divs dentro e link).-->
+                <div class="ao-vivo fonte"><a class="secao-assista-ao-vivo" href="fahsuaushaush">Assista ao vivo <i class="fas fa-arrow-right"></i></a></div><!--div link-->
+            </div><!--fundo-ao-vivo animacao-ao-vivo-->
+
+            <div class="canais fonte">
+                <ul>
+                    <li>SÃO PAULO: 32.1</li>
+                    <li>NET SÃO PAULO: 525</li>
+                    <li>VIVO: 522</li>
+                    <li>SKY: 16</li>
+                </ul>
+                <a class="secao-assista-ao-vivo" style="padding-left: 5px;" href="">Ver Todos -></a>
+            </div>
+        </section>
+
+            <section id="banner" ><span><a href="" class="banner"><img class="imgDoBanner" src="./img/banners/SagaOfTanyaEvil-Desk-min.jpg" alt="Banner de Saga of Tanya"></a></span></section>
+		
+            <section id="programasDaCasa">
+                <div class="titulo"><h2 class="elementoTitulo">Programas da Casa</h2></div>
+                <div class="programacao">
+                    <div class="programas">
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/esquenta.png" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>Esquenta MVP</h2><br>Seg a Sex às 22h</div></div></a>
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/comunidades-multiverso.svg" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>Multiverso</h2><br>Seg a Sex às 18h</div></div></a>
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/comunidades-maisgeek.svg" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>Mais Geek</h2><br>Seg a Sex às 20h40</div></div></a>
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/gameshark-1.svg" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>Gameshark</h2><br>Seg a Sex às 13h15</div></div></a>
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/megacrush.svg" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>MegaCrush</h2><br>Seg a Sex às 17h15</div></div></a>
+                        <a href="http://google.com"><div class="programa"><div class="imagemPrograma"><img src="./img/canais/TV-clube-coraia.svg" alt="" class="miniImagem"></div><div class="textoPrograma"><h2>TV Clube Coreia</h2><br>Seg a Sex às 16h15</div></div></a>
+                    </div>
+                    <div class="setas">
+                        <p class="seta" onclick="passarImagens(0)"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></p>
+                        <p class="seta" onclick="passarImagens(1)"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+                <div><span class="flex"><a href="">Ver Todos&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span></div>
+            </section>
+
+
+		<section id="novidades">
+            <div class="titulo">
+                <h2 class="elementoTitulo">Fique por dentro do que rolou na Loading</h2>
+            </div>
+            <div class="miniCanais">
+                <a href=";-;"><img class="miniCanaisImagens" src="./img/canais/comunidades-multiverso.svg" alt="Multiverso"></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/comunidades-maisgeek.svg" alt="Mais Geek"></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/desafio-gamer-1.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/gameshark-1.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/megacrush.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/maratoon-1.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/antes-do-pesadelo.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/funumation.svg" alt=""></a>
+                <a href=""><img class="miniCanaisImagens" src="./img/canais/re-loading-1.svg" alt=""></a>
+            </div>
+            <div class="programacao0">
+                <div class="programas0">
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/esquenta.png" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>Esquenta MVP</h2><br>Seg a Sex às 22h</div></div></a>
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/comunidades-multiverso.svg" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>Multiverso</h2><br>Seg a Sex às 18h</div></div></a>
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/comunidades-maisgeek.svg" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>Mais Geek</h2><br>Seg a Sex às 20h40</div></div></a>
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/gameshark-1.svg" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>Gameshark</h2><br>Seg a Sex às 13h15</div></div></a>
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/megacrush.svg" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>MegaCrush</h2><br>Seg a Sex às 17h15</div></div></a>
+                    <a href="http://google.com"><div class="programa0"><div class="imagemPrograma0"><img src="./img/canais/TV-clube-coraia.svg" alt="" class="miniImagem"></div><div class="textoPrograma0"><h2>TV Clube Coreia</h2><br>Seg a Sex às 16h15</div></div></a>
+                </div>
+                <div class="setas0">
+                    <p class="seta0" onclick="passarImagens0(0)"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></p>
+                    <p class="seta0" onclick="passarImagens0(1)"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        <div><span class="flex"><a href="">Ver Todos&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span></div>
+        </section>
+
+		<section id="banner0" ><span><a href="" class="banner"><img class="imgDoBanner" src="./img/banners/Overlord-horario-desk-min.jpg" alt="Banner de Overlord"></a></span></section>
+
+		<section id="conteudos">
+            <div class="titulo">
+                <h2 class="elementoTitulo">Saiba quando assistir seu conteúdo preferido</h2>
+            </div>
+            <div class="botoes">
+                <button>Anime e Mangá</button>
+                <button>Desenhos</button>
+                <button>K-Drama</button>
+                <button>Séries</button>
+                <button>Tokusatsu</button>
+            </div>
+            <div class="flex classe-conteudo">
+                <div class="flex-column"><img src="./img/conteudos/capa_Transforrb-min.jpg" class="paddingED" alt="Transformers Rescue Bots"><span class="fonte-cadet padding-5">Transformers: Rescue Bots</span></div>
+                <div class="flex-column"><img src="./img/conteudos/capa_orange-min.jpg" class="paddingED" alt="Orange"><span class="fonte-cadet padding-5">Orange</span></div>
+                <div class="flex-column"><img src="./img/conteudos/capa_overlord-min.jpg" class="paddingED" alt="Overlord"><span class="fonte-cadet padding-5">Overlord</span></div>
+                <div class="flex-column"><img src="./img/conteudos/capa_tanya-min.jpg" class="paddingED" alt="Saga of Tanya the Evil"><span class="fonte-cadet padding-5">Saga of Tanya the Evil</span></div>
+            </div>
+
+            <div><span class="flex"><a href="">Ver Todos&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></span></div>
+        </section>
+		
+        <section id="newsletter">
+            <div class="animacao-ao-vivo bolas-newsletter" style="height: 100%;">
+                <div class="bola1"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="bola2"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="bola3"></div>
+            </div>
+
+            <div class="titulo">
+                <h2 class="elementoTitulo">Newsletter</h2>
+            </div>
+            <p class="fonte-cadet">Cadastre-se e receba em primeira mão as novidades da Loading.</p>
+
+            <div class="formulario-newsletter">
+                <div class="input-name">
+                    <input class="pesquisa" type="text" name="Pesquisa" placeholder="Pesquisa">
+                </div>
+                <div class="input-email">
+                    <input class="email" type="text" name="Email" placeholder="Email">
+                </div>
+                <div class="botao-cadastro">
+                    <button class="cadastro">
+                        <span>Cadastrar E-Mail</span>
+                    </button>
+                </div>
+                <span>Ao enviar o seu e-mail você concorda em receber comunicados da Loading no endereço informado.</span>
+                
+            </div>
+        </section>
+	</main><!--container-principal-->
+
+	<footer id="footer">
+        <div class="coluna-visual">
+            <div class="imagemDaLogo"><img src="./img/loading.png" alt="Loading" style="width: 35%;"></div>
+            <div class="redesSociais">
+                <i class="fab fa-facebook facebook" aria-hidden="true"></i>
+                <i class="fa fa-play" aria-hidden="true"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+            </div>
+        </div>
+        <hr>
+        <div class="coisasDoFooter">
+            <span><a href="" class="letrinhasDoFooter">Programação</a></span>
+            <span><a href="" class="letrinhasDoFooter">Seja um Loader</a></span>
+            <span><a href="" class="letrinhasDoFooter">Mande um Oi</a></span>
+            <span><a href="" class="letrinhasDoFooter">Política de Privacidade</a></span>
+        </div>
+        <div class="fimDoRodape">
+            <div class="©">
+                <span>loading © 2021 / Feito por Rayner :3</span>
+            </div>
+            <div class="animacao-ao-vivo">
+                <div class="bola1"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="bola2"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="bola3"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+
+</body>
+</html>
